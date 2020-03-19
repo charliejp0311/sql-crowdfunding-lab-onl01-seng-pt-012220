@@ -1,5 +1,5 @@
 CREATE TABLE users(
-  id INTEGER,
+  id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER);
 
