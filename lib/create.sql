@@ -12,5 +12,8 @@ CREATE TABLE projects(
   end_date TEXT);
 
 CREATE TABLE pledges(
-  id INTEGER PRIMARY KEY
+  id INTEGER PRIMARY KEY,
+  amount REAL,
+  user_id INTEGER,
+  project_id INTEGER
 );
