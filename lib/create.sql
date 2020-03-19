@@ -10,4 +10,4 @@ CREATE TABLE projects(
   funding_goal REAL,
   start_date TEXT,
   end_date TEXT);
-)
+
